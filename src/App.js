@@ -23,7 +23,7 @@ function App() {
     {
       if(val=="")
       {
-        alert("there is nothing to clear bsdk");
+        alert("there is nothing to clear bsdk🤣🤣");
       }
       else if(onclickk==true)
       {
