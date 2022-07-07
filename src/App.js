@@ -23,7 +23,7 @@ function App() {
     {
       if(val=="")
       {
-        alert("there is nothing to clear bsdk🤣🤣");
+        alert("there is nothing to clear... please enter something");
       }
       else if(onclickk==true)
       {
@@ -35,6 +35,7 @@ function App() {
     }
     else if(e.target.innerText=="=")
     {
+      if(val=='')return ;
       if(!operators.includes(val.slice(-1)))
       {
       // setResult(eval(val)+'');
@@ -42,7 +43,7 @@ function App() {
       onclickk=true;
     }
     else{
-      alert("enter valid input dumass🤣🤣")
+      alert("please enter valid input")
     }
   }
     else
