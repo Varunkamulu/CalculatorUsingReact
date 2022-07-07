@@ -8,7 +8,10 @@ function App() {
     var onclickk=false;
     if(e.target.innerText=="Clear")
     {
-      // setResult('');
+      if(val=="")
+      {
+        alert("there is nothing to clear... please enter something");
+      }
       setVal('');
     }
     else if(operators.includes(val.slice(-1)) && operators.includes(e.target.innerText))
